@@ -44,6 +44,8 @@ while t < n:
 	time.sleep(timecorr - timepassed) #Wait until required time gap has passed
 	#Clear plot window	
 	pp.cla()
+	print('joe is great')
+	
 def MakeFile(filename):
 	"""
 		MakeFile(file_name): makes a file.
